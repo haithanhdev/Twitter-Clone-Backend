@@ -4,7 +4,6 @@ import usersService from '~/services/users.services'
 import { validate } from '~/utils/validation'
 
 export const loginValidator = (req: Request, res: Response, next: NextFunction) => {
-  console.log(req.body)
   const { email, password } = req.body
   if (!email || !password) {
     res.status(400).json({
