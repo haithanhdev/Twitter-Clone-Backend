@@ -13,6 +13,7 @@ import { verify } from 'crypto'
 import { create } from 'lodash'
 import { ErrorWithStatus } from '~/models/Errors'
 import HTTP_STATUS from '~/constants/httpStatus'
+import Follower from '~/models/schemas/Follower.schema'
 config()
 class UsersService {
   private signAccessToken({ user_id, verify }: { user_id: string; verify: UserVerifyStatus }) {
@@ -268,6 +269,23 @@ class UsersService {
       })
     }
     return user
+  }
+  async follow(user_id: string, followed_user_id: string) {
+    const follower = await databaseService.followers.findOne({
+      user_id: new ObjectId(user_id),
+      followed_user_id: new ObjectId(followed_user_id)
+    })
+    if (follower === null) {
+      await databaseService.followers.insertOne(
+        new Follower({ user_id: new ObjectId(user_id), followed_user_id: new ObjectId(followed_user_id) })
+      )
+      return {
+        message: USERS_MESSAGES.FOLLOW_SUCCESS
+      }
+    }
+    return {
+      message: USERS_MESSAGES.FOLLOWED
+    }
   }
 }
 
