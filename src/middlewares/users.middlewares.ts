@@ -14,6 +14,7 @@ import { NextFunction, Request, Response } from 'express'
 import { ObjectId } from 'mongodb'
 import { TokenPayload } from '~/models/requests/User.requests'
 import { UserVerifyStatus } from '~/constants/enums'
+import { REGEX_USERNAME } from '~/constants/regex'
 
 const passwordSchema: ParamSchema = {
   notEmpty: {
@@ -512,12 +513,19 @@ export const updateMeValidator = validate(
           errorMessage: USERS_MESSAGES.USERNAME_MUST_BE_A_STRING
         },
         trim: true,
-        isLength: {
-          options: {
-            min: 1,
-            max: 50
-          },
-          errorMessage: USERS_MESSAGES.USERNAME_LENGTH_MUST_BE_FROM_1_TO_50
+        custom: {
+          options: async (value: string, { req }) => {
+            if (!REGEX_USERNAME.test(value)) {
+              throw new Error(USERS_MESSAGES.USERNAME_INVALID)
+            }
+            const user = await databaseService.users.findOne({
+              username: value,
+              _id: { $ne: new ObjectId(req.decoded_authorization.user_id) }
+            })
+            if (user) {
+              throw new Error(USERS_MESSAGES.USERNAME_ALREADY_EXISTS)
+            }
+          }
         }
       },
       avatar: imageSchema,
