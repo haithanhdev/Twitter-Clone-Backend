@@ -1,11 +1,11 @@
-import exp from 'constants'
+import { config } from 'dotenv'
 import { Request, Response } from 'express'
 import { NextFunction, ParamsDictionary } from 'express-serve-static-core'
 import { ObjectId } from 'mongodb'
 import { UserVerifyStatus } from '~/constants/enums'
 import HTTP_STATUS from '~/constants/httpStatus'
 import { USERS_MESSAGES } from '~/constants/messages'
-
+config()
 import {
   ChangePasswordReqBody,
   FollowReqBody,
@@ -53,6 +53,16 @@ export const logoutController = async (req: Request<ParamsDictionary, any, Logou
   const { refresh_token } = req.body
   const result = await usersService.logout(refresh_token)
   res.json(result)
+  return
+}
+
+export const oauthController = async (req: Request, res: Response) => {
+  const { code } = req.query
+  console.log('req.query: ', req.query)
+  console.log('code: ', code)
+  const result = await usersService.oauth(code as string)
+  const urlRedirect = `${process.env.CLIENT_REDIRECT_CALLBACK}?access_token=${result.access_token}&refresh_token=${result.refresh_token}&new_user=${result.newUser}&verify=${result.verify}`
+  res.redirect(urlRedirect)
   return
 }
 
