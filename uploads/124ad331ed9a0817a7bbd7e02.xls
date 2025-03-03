@@ -1,0 +1,1721 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<title>Daily Report</title>
+<meta content='application/vnd.ms-excel;charset=UTF-8' http-equiv=Content-type />
+<meta name=ProgId content=Excel.Sheet />
+<meta name=Generator content="Microsoft Excel 11">
+<style type="text/css">
+<!--table
+@page{}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+  <x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet>
+    <x:Name>Sheet1</x:Name>
+    <x:WorksheetOptions><x:Panes>
+    </x:Panes></x:WorksheetOptions>
+    </x:ExcelWorksheet></x:ExcelWorksheets>
+  </x:ExcelWorkbook>
+</xml>
+<![endif]-->
+</head>
+<body>
+<!-- SECTION: PH -->
+<table class="PH">
+<tr>
+</tr>
+</table>
+<!-- SECTION: Detail2 -->
+<table class="Detail2">
+<tr>
+<td align="center" colspan=20 style="vnd.ms-excel.numberformat:@"><b></b></td>
+</tr>
+<tr>
+<td align="center" colspan=20 style="vnd.ms-excel.numberformat:@"><b>Báo cáo chuyên cần hàng ngày</b></td>
+</tr>
+<tr>
+<td align="center" colspan=20 style="vnd.ms-excel.numberformat:@"><b>2025-01-01 00:00:00 - 2025-01-26 23:59:59</b></td>
+</tr>
+<tr>
+<td align="center" style="vnd.ms-excel.numberformat:@"><b>Số</b></td>
+<td align="center" style="vnd.ms-excel.numberformat:@"><b>ID Người</b></td>
+<td align="center" style="vnd.ms-excel.numberformat:@"><b>Tên</b></td>
+<td align="center" style="vnd.ms-excel.numberformat:@"><b>Bộ phận</b></td>
+<td align="center" style="vnd.ms-excel.numberformat:@"><b>Vị trí</b></td>
+<td align="center" style="vnd.ms-excel.numberformat:@"><b>Giới tính</b></td>
+<td align="center" style="vnd.ms-excel.numberformat:@"><b>Ngày:</b></td>
+<td align="center" style="vnd.ms-excel.numberformat:@"><b>Tuần</b></td>
+<td align="center" style="vnd.ms-excel.numberformat:@"><b>Thời gian biểu</b></td>
+<td align="center" style="vnd.ms-excel.numberformat:@"><b>Đăng ký</b></td>
+<td align="center" style="vnd.ms-excel.numberformat:@"><b>Ra</b></td>
+<td align="center" style="vnd.ms-excel.numberformat:@"><b>Công việc</b></td>
+<td align="center" style="vnd.ms-excel.numberformat:@"><b>Tăng ca</b></td>
+<td align="center" style="vnd.ms-excel.numberformat:@"><b>Đã tham dự</b></td>
+<td align="center" style="vnd.ms-excel.numberformat:@"><b>Muộn</b></td>
+<td align="center" style="vnd.ms-excel.numberformat:@"><b>Về sớm</b></td>
+<td align="center" style="vnd.ms-excel.numberformat:@"><b>Vắng mặt</b></td>
+<td align="center" style="vnd.ms-excel.numberformat:@"><b>Thoát</b></td>
+<td align="center" style="vnd.ms-excel.numberformat:@"><b>Trạng thái</b></td>
+<td align="center" style="vnd.ms-excel.numberformat:@"><b>Bản ghi</b></td>
+</tr>
+</table>
+<!-- SECTION: Daily_Report -->
+<table class="Daily_Report">
+<tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">1</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">15</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Sel</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-01</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 4</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:01:59</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:39:15</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:37</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:37</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">1:43</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:01:59 21:39:15</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">2</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">15</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Sel</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-02</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 5</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:04:54</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:13:20</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:8</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:8</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2:12</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:04:54 21:13:20</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">3</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">15</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Sel</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-03</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 6</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:02:00</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">20:59:56</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:58</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:58</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2:22</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:02:00 20:59:56</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">4</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">15</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Sel</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-04</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 7</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:06:53</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">22:17:12</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">13:10</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">13:10</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:10</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:06:53 22:17:08 22:17:09 22:17:12</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">5</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">15</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Sel</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-05</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Sun.</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:56:26</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:39:37</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:43</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:43</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">1:37</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:56:26 21:39:37</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">6</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">15</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Sel</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-06</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 2</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:59:50</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:39:28</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:40</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:40</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">1:40</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:59:50 21:39:28</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">7</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">15</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Sel</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-07</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 3.</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:02:25</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:00:19</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:58</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:58</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2:22</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:02:25 21:00:19</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">8</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">15</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Sel</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-08</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 4</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:57:40</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:12:45</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:15</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:15</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2:5</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:57:40 21:12:45</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">9</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">15</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Sel</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-09</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 5</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:59:22</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:10:09</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:11</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:11</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2:9</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:59:22 21:10:09</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">10</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">15</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Sel</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-10</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 6</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:55:40</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:27:22</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:32</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:32</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">1:48</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:55:40 21:27:22</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">11</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">15</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Sel</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-11</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 7</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:02:40</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:28:13</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">12:26</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">12:26</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:54</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:02:40 21:28:13</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">12</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">15</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Sel</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-12</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Sun.</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:03:23</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:32:45</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">12:29</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">12:29</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:51</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:03:23 21:32:45</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">13</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">15</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Sel</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-13</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 2</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:00:37</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:07:48</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:7</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:7</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2:13</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:00:37 21:07:48</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">14</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">15</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Sel</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-14</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 3.</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:09:35</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:14:23</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:5</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:5</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2:15</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:09:35 21:14:19 21:14:20 21:14:23</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">15</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">15</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Sel</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-15</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 4</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:55:10</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:19:08</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:24</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:24</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">1:56</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:55:10 21:19:07 21:19:08</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">16</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">15</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Sel</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-16</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 5</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:02:59</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:44:27</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:41</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:41</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">1:39</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:02:59 21:44:27</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">17</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">15</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Sel</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-17</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 6</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:56:40</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:20:32</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:24</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:24</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">1:56</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:56:40 21:20:32</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">18</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">15</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Sel</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-18</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 7</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:03:56</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:58:41</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">12:55</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">12:55</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:25</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:03:56 21:58:37 21:58:38 21:58:41</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">19</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">15</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Sel</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-19</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Sun.</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:02:11</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:54:01</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">12:52</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">12:52</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:28</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:02:11 21:54:01</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">20</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">15</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Sel</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-20</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 2</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:03:03</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">22:18:20</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">12:15</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">12:15</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">1:5</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:03:03 22:18:20</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">21</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">15</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Sel</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-21</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 3.</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:06:43</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:24:34</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:18</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:18</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2:2</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:06:43 21:24:34</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">22</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">15</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Sel</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-22</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 4</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:55:55</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:47:06</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:51</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:51</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">1:29</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:55:55 21:47:06</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">23</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">15</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Sel</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-23</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 5</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:03:06</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:16:10</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:13</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:13</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2:7</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:03:06 21:16:10</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">24</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">15</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Sel</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-24</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 6</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:59:13</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">22:01:52</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">12:3</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">12:3</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">1:17</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:59:13 22:01:52</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">25</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">15</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Sel</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-25</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 7</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">08:58:43</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:32:59</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">12:34</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">12:34</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:46</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">08:58:43 21:32:57 21:32:59</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">26</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">15</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Sel</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-26</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Sun.</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:01:37</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:10:07</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">12:9</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">12:9</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">1:12</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:01:37 21:10:07</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">27</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">28</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Dan</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-01</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 4</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:01:49</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:39:09</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:37</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:37</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">1:43</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:01:49 21:39:09</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">28</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">28</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Dan</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-02</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 5</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:04:48</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:13:11</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:8</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:8</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2:12</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:04:48 15:04:57 17:58:21 21:13:11</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">29</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">28</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Dan</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-03</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 6</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">13:50:17</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:00:00</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">7:10</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">7:10</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">6:10</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">13:50:17 21:00:00</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">30</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">28</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Dan</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-04</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 7</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:07:03</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">22:17:01</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">13:10</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">13:10</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:10</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:07:03 15:20:12 18:17:00 22:17:01</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">31</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">28</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Dan</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-05</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Sun.</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:00:21</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:39:40</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:39</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:39</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">1:41</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:00:21 15:55:17 18:25:10 21:39:40</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">32</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">28</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Dan</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-06</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 2</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:59:44</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:39:35</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:40</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:40</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">1:40</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:59:44 15:38:45 18:25:47 21:39:34 21:39:35</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">33</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">28</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Dan</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-07</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 3.</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:01:52</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">15:40:03</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">5:38</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">5:38</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">7:42</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:01:52 15:39:51 15:40:03</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">34</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">28</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Dan</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-08</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 4</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:55:57</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:12:38</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:17</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:17</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2:3</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:55:57 15:07:06 17:59:38 21:12:38</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">35</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">28</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Dan</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-09</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 5</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:59:17</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:10:17</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:11</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:11</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2:9</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:59:17 15:10:49 18:00:08 21:10:17</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">36</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">28</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Dan</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-10</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 6</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:56:56</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:27:03</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:30</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:30</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">1:50</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:56:56 15:15:44 17:58:55 21:27:03</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">37</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">28</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Dan</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-11</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 7</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:05:07</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:28:08</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">12:23</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">12:23</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:57</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:05:07 14:56:44 17:42:17 21:28:08</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">38</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">28</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Dan</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-12</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Sun.</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:03:28</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:32:38</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">12:29</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">12:29</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:51</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:03:28 15:08:35 18:02:57 21:32:38</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">39</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">28</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Dan</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-13</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 2</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:01:17</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:07:50</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:7</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:7</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2:13</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:01:17 15:30:45 18:24:50 18:24:51 21:07:50</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">40</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">28</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Dan</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-14</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 3.</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:09:54</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">15:04:51</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">4:55</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">4:55</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">8:25</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:09:54 10:10:04 15:04:51</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">41</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">28</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Dan</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-15</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 4</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:55:49</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:19:18</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:23</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:23</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">1:57</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:55:49 15:04:05 17:58:22 21:19:18</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">42</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">28</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Dan</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-16</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 5</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:25:05</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:44:29</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:19</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:19</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2:1</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:25:05 15:30:44 18:06:51 21:44:29</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">43</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">28</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Dan</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-17</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 6</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:54:01</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:20:36</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:27</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:27</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">1:53</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:54:01 15:21:28 18:05:11 21:20:36</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">44</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">28</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Dan</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-18</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 7</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:04:21</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:58:52</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">12:55</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">12:55</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:25</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:04:21 15:43:44 17:53:46 21:58:52</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">45</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">28</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Dan</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-19</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Sun.</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:05:37</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:53:57</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">12:48</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">12:48</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:32</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:05:37 21:53:57</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">46</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">28</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Dan</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-20</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 2</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:03:10</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">22:10:30</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">12:7</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">12:7</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">1:13</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:03:10 15:17:57 15:17:58 18:06:01 22:10:30</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">47</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">28</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Dan</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-21</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 3.</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:06:47</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">13:20</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:06:47</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">48</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">28</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Dan</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-22</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 4</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:55:50</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:40:20</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:45</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:45</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">1:36</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:55:50 15:07:58 17:56:09 21:40:18 21:40:20</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">49</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">28</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Dan</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-23</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 5</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:03:38</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:15:59</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:12</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:12</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2:8</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:03:38 15:21:09 18:02:55 21:15:59</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">50</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">28</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Dan</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-24</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 6</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:07:31</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">22:00:51</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:53</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:53</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">1:27</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:07:31 18:03:25 22:00:50 22:00:51</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">51</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">28</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Dan</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-25</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 7</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:03:20</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:32:54</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">12:30</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">12:30</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:50</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:03:20 14:22:44 17:24:30 21:32:42 21:32:54</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">52</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">28</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Dan</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-26</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Sun.</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:01:30</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:10:43</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">12:9</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">12:9</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">1:11</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:01:30 15:14:37 18:04:23 18:04:24 21:10:43</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">53</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">29</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nhung</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-01</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 4</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:15:45</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:36:37</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:21</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:21</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">1:59</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:15:45 21:36:37</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">54</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">29</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nhung</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-02</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 5</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:21:28</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:09:25</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:48</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:48</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2:32</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:21:28 21:09:25</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">55</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">29</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nhung</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-03</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 6</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:25:22</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:02:22</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:37</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:37</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2:43</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:25:22 21:02:22</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">56</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">29</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nhung</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-04</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 7</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:16:00</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">22:09:34</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">12:54</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">12:54</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:26</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:16:00 22:09:34</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">57</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">29</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nhung</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-05</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Sun.</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:16:08</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:33:17</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:17</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:17</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2:3</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:16:08 21:33:17</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">58</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">29</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nhung</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-06</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 2</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">13:43:58</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:40:16</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">7:56</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">7:56</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">5:24</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">13:43:58 21:40:16</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">59</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">29</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nhung</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-07</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 3.</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:08:40</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:00:54</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:52</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:52</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2:28</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:08:40 21:00:54</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">60</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">29</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nhung</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-08</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 4</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:26:49</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:02:07</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:35</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:35</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2:45</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:26:49 21:02:07</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">61</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">29</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nhung</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-09</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 5</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:17:46</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:07:13</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:49</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:49</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2:31</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:17:46 21:07:13</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">62</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">29</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nhung</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-10</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 6</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:06:46</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">13:20</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:06:46</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">63</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">29</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nhung</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-11</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 7</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:30:08</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:27:52</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:58</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:58</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">1:22</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:30:08 21:27:52</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">64</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">29</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nhung</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-12</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Sun.</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:08:49</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:35:47</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">12:27</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">12:27</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:53</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:08:49 21:35:47</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">65</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">29</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nhung</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-13</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 2</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">13:52:20</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:05:38</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">7:13</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">7:13</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">6:7</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">13:52:20 21:05:38</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">66</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">29</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nhung</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-14</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 3.</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:09:45</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:01:40</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:52</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:52</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2:28</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:09:45 21:01:40</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">67</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">29</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nhung</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-15</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 4</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:09:30</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:18:10</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:9</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:9</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2:11</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:09:30 21:18:10</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">68</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">29</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nhung</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-16</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 5</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:23:05</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:34:52</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:12</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:12</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2:8</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:23:05 21:34:52</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">69</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">29</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nhung</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-17</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 6</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:17:24</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:10:21</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:53</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:53</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2:27</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:17:24 21:10:21</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">70</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">29</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nhung</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-18</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 7</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:31:02</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:56:12</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">12:25</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">12:25</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:55</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:31:02 21:56:12</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">71</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">29</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nhung</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-19</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Sun.</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:08:11</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:51:05</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">12:43</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">12:43</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:37</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:08:11 21:51:05</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">72</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">29</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nhung</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-20</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 2</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:03:33</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">22:02:27</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:59</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:59</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">1:21</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:03:33 22:02:27</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">73</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">29</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nhung</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-21</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 3.</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:06:59</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:20:00</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:13</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:13</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2:7</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:06:59 21:20:00</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">74</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">29</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nhung</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-22</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 4</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:08:40</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:25:59</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:17</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:17</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2:3</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:08:40 21:25:59</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">75</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">29</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nhung</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-23</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 5</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:58:33</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:13:23</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">9:15</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">9:15</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">4:5</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:58:33 21:13:23</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">76</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">29</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nhung</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-24</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 6</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:06:56</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:44:34</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:38</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:38</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">1:42</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">10:06:56 21:44:34</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">77</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">29</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nhung</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-25</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Thứ 7</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:23:54</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:24:05</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">12:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">12:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">1:20</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:23:54 21:24:05</td>
+</tr>
+<td align="center" style="vnd.ms-excel.numberformat:@">78</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">29</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nhung</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Mcc</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">-</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Nam giới</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">2025-01-26</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Sun.</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">Linh hoat(00:00:00-23:59:00)</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:08:38</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">21:03:02</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:54</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">11:54</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">1:26</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">0:0</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">A</td>
+<td align="center" style="vnd.ms-excel.numberformat:@">09:08:38 21:03:02</td>
+</tr>
+</table>
+<!-- SECTION: Detail3 -->
+<table class="Detail3">
+<tr>
+<td nowrap="nowrap" align="left" style="vnd.ms-excel.numberformat:@">Lưu ý:  LV = Áp Dụng Cho Nghỉ Phép/Đi Công Tác; L = Muộn; E = Nghỉ sớm; W = Đã tham dự; OT1 = Tăng ca 1; OT2 = Tăng ca 2; OT3 = Tăng ca 3; A = Vắng mặt; # = Cuối tuần;
+Đơn Vị Tối Thiểu:  Công việc-phút; Tăng ca-phút; Đã tham dự-phút; Muộn-phút; Về sớm-phút; Vắng mặt-phút; Thoát-phút;
+Định dạng thời gian::  Công việc-HH:MM; Tăng ca-HH:MM; Đã tham dự-HH:MM; Muộn-HH:MM; Về sớm-HH:MM; Vắng mặt-HH:MM; Thoát-HH:MM;</td>
+</tr>
+<tr>
+<td nowrap="nowrap" align="left" style="vnd.ms-excel.numberformat:@">Ngày/Giờ: 2025-01-26 22:24:06</td>
+</tr>
+</table>
+<!-- SECTION: PF -->
+<table class="PF">
+<tr>
+</tr>
+</table>
+</body>
+</html>
