@@ -10,7 +10,7 @@ import { MediaType } from '~/constants/enums'
 import { Media } from '~/models/Other'
 config()
 class MediasService {
-  async handleUploadImage(req: Request) {
+  async UploadImage(req: Request) {
     //upload raw file to temp
     const files = await handleUploadImage(req)
     const result: Media[] = await Promise.all(
@@ -23,8 +23,8 @@ class MediasService {
         fs.unlinkSync(file.filepath)
         return {
           url: isProduction
-            ? `${process.env.HOST}/static/${newName}.jpg`
-            : `http://localhost:${process.env.PORT}/static/${newName}.jpg`,
+            ? `${process.env.HOST}/static/image/${newName}.jpg`
+            : `http://localhost:${process.env.PORT}/static/image/${newName}.jpg`,
           type: MediaType.Image
         }
       })
