@@ -150,7 +150,7 @@ const encodeMax720 = async ({
     slash(outputSegmentPath),
     slash(outputPath)
   )
-
+  console.log('Running command:', 'ffmpeg', ...args)
   await $`ffmpeg ${args}`
   return true
 }
@@ -207,7 +207,7 @@ const encodeMax1080 = async ({
     slash(outputSegmentPath),
     slash(outputPath)
   )
-
+  console.log('Running command:', 'ffmpeg', ...args)
   await $`ffmpeg ${args}`
   return true
 }
@@ -270,7 +270,7 @@ const encodeMax1440 = async ({
     slash(outputSegmentPath),
     slash(outputPath)
   )
-
+  console.log('Running command:', 'ffmpeg', ...args)
   await $`ffmpeg ${args}`
   return true
 }
@@ -333,7 +333,7 @@ const encodeMaxOriginal = async ({
     slash(outputSegmentPath),
     slash(outputPath)
   )
-
+  console.log('Running command:', 'ffmpeg', ...args)
   await $`ffmpeg ${args}`
   return true
 }
