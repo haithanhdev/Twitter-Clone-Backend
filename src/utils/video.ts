@@ -7,6 +7,7 @@ const MAXIMUM_BITRATE_1440P = 16 * 10 ** 6 // 16Mbps
 
 export const checkVideoHasAudio = async (filePath: string) => {
   const { $ } = await import('zx')
+  $.quiet = true // Tắt log của zx
   const slash = (await import('slash')).default
   const { stdout } = await $`ffprobe ${[
     '-v',
@@ -27,6 +28,7 @@ export const checkVideoHasAudio = async (filePath: string) => {
 //stdout là giá trị trả về của terminal
 const getBitrate = async (filePath: string) => {
   const { $ } = await import('zx')
+  $.quiet = true // Tắt log của zx
   const slash = (await import('slash')).default
   const { stdout } = await $`ffprobe ${[
     '-v',
@@ -46,8 +48,8 @@ const getBitrate = async (filePath: string) => {
 //Terminal trả về là 1 chuỗi kí tự (Vd: 1280x720) => split để lấy width và height
 const getResolution = async (filePath: string) => {
   const { $ } = await import('zx')
+  $.quiet = true // Tắt log của zx
   const slash = (await import('slash')).default
-
   const { stdout } = await $`ffprobe ${[
     '-v',
     'error',
@@ -101,6 +103,7 @@ const encodeMax720 = async ({
   resolution
 }: EncodeByResolution) => {
   const { $ } = await import('zx')
+  $.quiet = true // Tắt log của zx
   const slash = (await import('slash')).default
 
   const args = [
@@ -164,6 +167,7 @@ const encodeMax1080 = async ({
   resolution
 }: EncodeByResolution) => {
   const { $ } = await import('zx')
+  $.quiet = true // Tắt log của zx
   const slash = (await import('slash')).default
 
   const args = ['-y', '-i', slash(inputPath), '-preset', 'veryslow', '-g', '48', '-crf', '17', '-sc_threshold', '0']
@@ -221,6 +225,7 @@ const encodeMax1440 = async ({
   resolution
 }: EncodeByResolution) => {
   const { $ } = await import('zx')
+  $.quiet = true // Tắt log của zx
   const slash = (await import('slash')).default
 
   const args = ['-y', '-i', slash(inputPath), '-preset', 'veryslow', '-g', '48', '-crf', '17', '-sc_threshold', '0']
@@ -284,6 +289,7 @@ const encodeMaxOriginal = async ({
   resolution
 }: EncodeByResolution) => {
   const { $ } = await import('zx')
+  $.quiet = true // Tắt log của zx
   const slash = (await import('slash')).default
 
   const args = ['-y', '-i', slash(inputPath), '-preset', 'veryslow', '-g', '48', '-crf', '17', '-sc_threshold', '0']
