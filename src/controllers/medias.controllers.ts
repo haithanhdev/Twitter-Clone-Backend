@@ -34,6 +34,15 @@ export const uploadVideoHLSController = async (req: Request, res: Response, next
   return
 }
 
+export const videoStatusController = async (req: Request, res: Response, next: NextFunction) => {
+  const { id } = req.params
+  const result = await mediasService.getVideoStatus(id as string)
+  res.json({
+    message: USERS_MESSAGES.GET_VIDEO_STATUS_SUCCESS,
+    result
+  })
+}
+
 export const serveImageController = (req: Request, res: Response, next: NextFunction) => {
   const { name } = req.params
   res.sendFile(path.resolve(UPLOAD_IMAGE_DIR, name), (err) => {

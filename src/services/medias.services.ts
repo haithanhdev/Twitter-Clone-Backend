@@ -7,9 +7,11 @@ import fs from 'fs'
 import fsPromise from 'fs/promises'
 import { isProduction } from '~/constants/config'
 import { config } from 'dotenv'
-import { MediaType } from '~/constants/enums'
+import { EncodingStatus, MediaType } from '~/constants/enums'
 import { Media } from '~/models/Other'
 import { encodeHLSWithMultipleVideoStreams } from '~/utils/video'
+import databaseService from './database.services'
+import VideoStatus from '~/models/schemas/VideoStatus'
 config()
 
 class Queue {
@@ -20,8 +22,11 @@ class Queue {
     this.encoding = false
   }
 
-  enqueue(item: string) {
+  async enqueue(item: string) {
     this.items.push(item)
+    //item = /home/user/127467812648721/video.mp4
+    const idName = getNameFromFullname(item.split('/').pop() as string)
+    await databaseService.videoStatus.insertOne(new VideoStatus({ name: idName, status: EncodingStatus.Pending }))
     console.log(`Enqueue: ${item}\n`)
     this.processEncode()
   }
@@ -32,13 +37,27 @@ class Queue {
     if (this.items.length > 0) {
       this.encoding = true
       const videoPath = this.items[0]
+      const idName = getNameFromFullname(videoPath.split('/').pop() as string)
+      await databaseService.videoStatus.updateOne(
+        { name: idName },
+        { $set: { status: EncodingStatus.Processing }, $currentDate: { updatedAt: true } }
+      )
       try {
         await encodeHLSWithMultipleVideoStreams(videoPath)
         //Xoá phần tử đầu tiên
         this.items.shift()
         await fsPromise.unlink(videoPath)
+        await databaseService.videoStatus.updateOne(
+          { name: idName },
+          { $set: { status: EncodingStatus.Success }, $currentDate: { updatedAt: true } }
+        )
         console.log(`Encoded video: ${videoPath} successfully`)
       } catch (error) {
+        await databaseService.videoStatus
+          .updateOne({ name: idName }, { $set: { status: EncodingStatus.Failed }, $currentDate: { updatedAt: true } })
+          .catch((err) => {
+            console.error('Update video status error', err)
+          })
         console.error(`Encoded video: ${videoPath} error`)
         console.error(error)
       }
@@ -102,6 +121,11 @@ class MediasService {
       })
     )
     return result
+  }
+
+  async getVideoStatus(id: string) {
+    const data = await databaseService.videoStatus.findOne({ name: id })
+    return data
   }
 }
 
