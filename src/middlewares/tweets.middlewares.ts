@@ -245,6 +245,45 @@ export const tweetIdValidator = validate(
     ['params', 'body']
   )
 )
+
+export const getTweetChildrenValidator = validate(
+  checkSchema(
+    {
+      tweet_type: {
+        isIn: {
+          options: [tweetTypes],
+          errorMessage: TWEETS_MESSAGES.INVALID_TYPE
+        }
+      },
+      limit: {
+        isNumeric: true,
+        custom: {
+          options: async (value, { req }) => {
+            const num = Number(value)
+            if (num > 100 || num < 1) {
+              throw new Error(TWEETS_MESSAGES.LIMIT_MUST_BE_IN_1_TO_100)
+            }
+            return true
+          }
+        }
+      },
+      page: {
+        isNumeric: true,
+        custom: {
+          options: async (value, { req }) => {
+            const num = Number(value)
+            if (num < 1) {
+              throw new Error(TWEETS_MESSAGES.PAGE_MUST_BE_GREATER_THAN_1)
+            }
+            return true
+          }
+        }
+      }
+    },
+    ['query']
+  )
+)
+
 //Muốn sử dụng async await trong handler express thì phải có try catch
 //Nếu không dùng try catch thì phải dùng wrapRequestHandler
 export const audienceValidator = wrapRequestHandler(async (req: Request, res: Response, next: NextFunction) => {
