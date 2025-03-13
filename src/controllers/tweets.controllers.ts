@@ -1,5 +1,6 @@
 import { NextFunction, Request, Response } from 'express'
 import { ParamsDictionary } from 'express-serve-static-core'
+import { result } from 'lodash'
 import { TweetRequestBody } from '~/models/requests/Tweet.requests'
 import { TokenPayload } from '~/models/requests/User.requests'
 import tweetsService from '~/services/tweets.services'
@@ -19,9 +20,9 @@ export const createTweetController = async (
 }
 
 export const getTweetController = async (req: Request, res: Response, next: NextFunction) => {
-  const { tweet_id } = req.params
   res.json({
-    message: 'Get tweet successfully'
+    message: 'Get tweet successfully',
+    result: req.tweet
   })
   return
 }
