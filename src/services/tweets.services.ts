@@ -441,7 +441,6 @@ class TweetsService {
         ])
         .toArray()
     ])
-
     const tweet_ids = tweets.map((tweet) => tweet._id as ObjectId)
     const date = new Date()
     await databaseService.tweets.updateMany(
@@ -464,7 +463,7 @@ class TweetsService {
     })
     return {
       tweets,
-      total: total[0].total
+      total: total[0]?.total || 0
     }
   }
 }
