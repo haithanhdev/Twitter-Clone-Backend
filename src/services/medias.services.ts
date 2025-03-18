@@ -1,7 +1,7 @@
 import { Request } from 'express'
-import { getNameFromFullname, handleUploadImage, handleUploadVideo } from '~/utils/file'
+import { getFiles, getNameFromFullname, handleUploadImage, handleUploadVideo } from '~/utils/file'
 import sharp from 'sharp'
-import { UPLOAD_IMAGE_DIR } from '~/constants/dir'
+import { UPLOAD_IMAGE_DIR, UPLOAD_VIDEO_DIR } from '~/constants/dir'
 import path from 'path'
 import fs from 'fs'
 import fsPromise from 'fs/promises'
@@ -14,6 +14,7 @@ import databaseService from './database.services'
 import VideoStatus from '~/models/schemas/VideoStatus'
 import { uploadFileToS3 } from '~/utils/s3'
 import mime from 'mime'
+import { rimrafSync } from 'rimraf'
 config()
 
 class Queue {
@@ -48,12 +49,30 @@ class Queue {
         await encodeHLSWithMultipleVideoStreams(videoPath)
         //Xoá phần tử đầu tiên
         this.items.shift()
-        await fsPromise.unlink(videoPath)
+        rimrafSync(videoPath)
+        //Upload to AWS S3
+        const files = getFiles(path.resolve(UPLOAD_VIDEO_DIR, idName))
+        await Promise.all(
+          files.map((filepath) => {
+            // filepath: /Users/nguyenhaithanh/Documents/DuThanhDuoc/Twitter/uploads/videos/kCjaYjtC9F7sLeDik_mYx/v0/fileSequence0.ts
+            const filename = 'videos-hls' + filepath.replace(path.resolve(UPLOAD_VIDEO_DIR), '')
+            // filename: video-hls/kCjaYjtC9F7sLeDik_mYx/v0/fileSequence0.ts
+            return uploadFileToS3({
+              filePath: filepath,
+              fileName: filename,
+              contentType: mime.getType(filepath) as string
+            })
+          })
+        )
+        //Xoá path của video nằm trong temp dùng thế này có thể gây ra lỗi
+        // await Promise.all([fsPromise.unlink(videoPath), fsPromise.unlink(path.resolve(UPLOAD_VIDEO_DIR, idName))])
+        //Sử dụng rimraf
+        rimrafSync(path.resolve(UPLOAD_VIDEO_DIR, idName))
         await databaseService.videoStatus.updateOne(
           { name: idName },
           { $set: { status: EncodingStatus.Success }, $currentDate: { updatedAt: true } }
         )
-        console.log(`Encoded video: ${videoPath} successfully`)
+        console.log(`Encode video ${videoPath} success`)
       } catch (error) {
         await databaseService.videoStatus
           .updateOne({ name: idName }, { $set: { status: EncodingStatus.Failed }, $currentDate: { updatedAt: true } })

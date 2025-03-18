@@ -1,13 +1,11 @@
 import path from 'path'
 
-//Khai báo 1 vài const về bitrate
 const MAXIMUM_BITRATE_720P = 5 * 10 ** 6 // 5Mbps
 const MAXIMUM_BITRATE_1080P = 8 * 10 ** 6 // 8Mbps
 const MAXIMUM_BITRATE_1440P = 16 * 10 ** 6 // 16Mbps
 
 export const checkVideoHasAudio = async (filePath: string) => {
   const { $ } = await import('zx')
-  $.quiet = true // Tắt log của zx
   const slash = (await import('slash')).default
   const { stdout } = await $`ffprobe ${[
     '-v',
@@ -23,12 +21,8 @@ export const checkVideoHasAudio = async (filePath: string) => {
   return stdout.trim() === 'audio'
 }
 
-//Hàm để lấy được bitrate của 1 file
-//Trả về 1 số number (Vd: 418505)
-//stdout là giá trị trả về của terminal
 const getBitrate = async (filePath: string) => {
   const { $ } = await import('zx')
-  $.quiet = true // Tắt log của zx
   const slash = (await import('slash')).default
   const { stdout } = await $`ffprobe ${[
     '-v',
@@ -44,12 +38,10 @@ const getBitrate = async (filePath: string) => {
   return Number(stdout.trim())
 }
 
-//Hàm để lấy độ phân giải của file
-//Terminal trả về là 1 chuỗi kí tự (Vd: 1280x720) => split để lấy width và height
 const getResolution = async (filePath: string) => {
   const { $ } = await import('zx')
-  $.quiet = true // Tắt log của zx
   const slash = (await import('slash')).default
+
   const { stdout } = await $`ffprobe ${[
     '-v',
     'error',
@@ -69,7 +61,6 @@ const getResolution = async (filePath: string) => {
   }
 }
 
-// Đầu vào là chiều cao bất kỳ và độ phân giải => tính được chiều rộng tương ứng
 const getWidth = (height: number, resolution: { width: number; height: number }) => {
   const width = Math.round((height * resolution.width) / resolution.height)
   // Vì ffmpeg yêu cầu width và height phải là số chẵn
@@ -93,7 +84,6 @@ type EncodeByResolution = {
   }
 }
 
-//command để convert thành 720p
 const encodeMax720 = async ({
   bitrate,
   inputPath,
@@ -103,7 +93,6 @@ const encodeMax720 = async ({
   resolution
 }: EncodeByResolution) => {
   const { $ } = await import('zx')
-  $.quiet = true // Tắt log của zx
   const slash = (await import('slash')).default
 
   const args = [
@@ -153,11 +142,11 @@ const encodeMax720 = async ({
     slash(outputSegmentPath),
     slash(outputPath)
   )
-  console.log('Running command:', 'ffmpeg', ...args)
+
   await $`ffmpeg ${args}`
   return true
 }
-//Command để convert thành 1080p
+
 const encodeMax1080 = async ({
   bitrate,
   inputPath,
@@ -167,7 +156,6 @@ const encodeMax1080 = async ({
   resolution
 }: EncodeByResolution) => {
   const { $ } = await import('zx')
-  $.quiet = true // Tắt log của zx
   const slash = (await import('slash')).default
 
   const args = ['-y', '-i', slash(inputPath), '-preset', 'veryslow', '-g', '48', '-crf', '17', '-sc_threshold', '0']
@@ -211,11 +199,11 @@ const encodeMax1080 = async ({
     slash(outputSegmentPath),
     slash(outputPath)
   )
-  console.log('Running command:', 'ffmpeg', ...args)
+
   await $`ffmpeg ${args}`
   return true
 }
-//Command để convert thành 1440p
+
 const encodeMax1440 = async ({
   bitrate,
   inputPath,
@@ -225,7 +213,6 @@ const encodeMax1440 = async ({
   resolution
 }: EncodeByResolution) => {
   const { $ } = await import('zx')
-  $.quiet = true // Tắt log của zx
   const slash = (await import('slash')).default
 
   const args = ['-y', '-i', slash(inputPath), '-preset', 'veryslow', '-g', '48', '-crf', '17', '-sc_threshold', '0']
@@ -260,7 +247,7 @@ const encodeMax1440 = async ({
   if (isHasAudio) {
     args.push('v:0,a:0 v:1,a:1 v:2,a:2')
   } else {
-    args.push('v:0 v:1 v:2')
+    args.push('v:0 v:1 v2')
   }
   args.push(
     '-master_pl_name',
@@ -275,11 +262,11 @@ const encodeMax1440 = async ({
     slash(outputSegmentPath),
     slash(outputPath)
   )
-  console.log('Running command:', 'ffmpeg', ...args)
+
   await $`ffmpeg ${args}`
   return true
 }
-//Command để convert thành chất lượng cao nhất
+
 const encodeMaxOriginal = async ({
   bitrate,
   inputPath,
@@ -289,7 +276,6 @@ const encodeMaxOriginal = async ({
   resolution
 }: EncodeByResolution) => {
   const { $ } = await import('zx')
-  $.quiet = true // Tắt log của zx
   const slash = (await import('slash')).default
 
   const args = ['-y', '-i', slash(inputPath), '-preset', 'veryslow', '-g', '48', '-crf', '17', '-sc_threshold', '0']
@@ -324,7 +310,7 @@ const encodeMaxOriginal = async ({
   if (isHasAudio) {
     args.push('v:0,a:0 v:1,a:1 v:2,a:2')
   } else {
-    args.push('v:0 v:1 v:2')
+    args.push('v:0 v:1 v2')
   }
   args.push(
     '-master_pl_name',
@@ -339,25 +325,20 @@ const encodeMaxOriginal = async ({
     slash(outputSegmentPath),
     slash(outputPath)
   )
-  console.log('Running command:', 'ffmpeg', ...args)
+
   await $`ffmpeg ${args}`
   return true
 }
 
 export const encodeHLSWithMultipleVideoStreams = async (inputPath: string) => {
-  //Lấy bitrate và độ phân giải của file
   const [bitrate, resolution] = await Promise.all([getBitrate(inputPath), getResolution(inputPath)])
-  //Lấy path của folder cha
   const parent_folder = path.join(inputPath, '..')
-  //Đặt tên cho file segment và file đại diện
   const outputSegmentPath = path.join(parent_folder, 'v%v/fileSequence%d.ts')
   const outputPath = path.join(parent_folder, 'v%v/prog_index.m3u8')
-  //Định nghĩa các bitrate khác nhau cho từng độ phân giải để convert
   const bitrate720 = bitrate > MAXIMUM_BITRATE_720P ? MAXIMUM_BITRATE_720P : bitrate
   const bitrate1080 = bitrate > MAXIMUM_BITRATE_1080P ? MAXIMUM_BITRATE_1080P : bitrate
   const bitrate1440 = bitrate > MAXIMUM_BITRATE_1440P ? MAXIMUM_BITRATE_1440P : bitrate
   const isHasAudio = await checkVideoHasAudio(inputPath)
-  //ban đầu sẽ lấy câu lệnh convert thành 720p
   let encodeFunc = encodeMax720
   if (resolution.height > 720) {
     encodeFunc = encodeMax1080
@@ -381,6 +362,5 @@ export const encodeHLSWithMultipleVideoStreams = async (inputPath: string) => {
     outputSegmentPath,
     resolution
   })
-  console.log('Convert success')
   return true
 }
