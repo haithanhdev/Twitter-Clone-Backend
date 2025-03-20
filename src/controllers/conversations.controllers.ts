@@ -1,8 +1,14 @@
 import { Request, Response, NextFunction } from 'express'
+import { GetConversationParams } from '~/models/requests/Conversation.requests'
+import { Pagination } from '~/models/requests/Tweet.requests'
 import { TokenPayload } from '~/models/requests/User.requests'
 import conversationsService from '~/services/conversations.services'
 
-export const getConversationsController = async (req: Request, res: Response, next: NextFunction) => {
+export const getConversationsController = async (
+  req: Request<GetConversationParams, any, any, Pagination>,
+  res: Response,
+  next: NextFunction
+) => {
   const user_id = req.decoded_authorization?.user_id as string
   const { receiver_id } = req.params
   const limit = Number(req.query.limit)
