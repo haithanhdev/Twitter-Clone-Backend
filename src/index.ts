@@ -15,6 +15,7 @@ import { createServer } from 'http'
 import '~/utils/s3'
 import conversationsRouter from './routes/conversations.routes'
 import initSocket from './utils/socket'
+import likesRouter from '~/routes/likes.routes'
 
 config()
 databaseService.connect().then(() => {
@@ -37,6 +38,7 @@ app.use('/users', usersRouter)
 app.use('/medias', mediasRouter)
 app.use('/tweets', tweetsRouter)
 app.use('/bookmarks', bookmarksRouter)
+app.use('/likes', likesRouter)
 app.use('/search', searchRouter)
 app.use('/conversations', conversationsRouter)
 app.use('/static', staticRouter)
