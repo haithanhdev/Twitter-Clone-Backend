@@ -38,10 +38,15 @@ import { wrapRequestHandler } from '~/utils/handlers'
 const usersRouter = Router()
 
 /***
- * Description: Login a user
- * Path: /login
- * Method: POST
- * Body: { email: string, password: string }
+ * @openapi
+ * /users/login:
+ *   post:
+ *    description: Login
+ *    tags:
+ *      - Users
+ *    requestBody:
+ *      description: Thông tin đăng nhập
+ *      required: true
  */
 usersRouter.post('/login', loginValidator, wrapRequestHandler(loginController))
 

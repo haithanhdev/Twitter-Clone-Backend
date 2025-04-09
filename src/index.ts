@@ -16,6 +16,41 @@ import '~/utils/s3'
 import conversationsRouter from './routes/conversations.routes'
 import initSocket from './utils/socket'
 import likesRouter from '~/routes/likes.routes'
+import YAML from 'yaml'
+// import fs from 'fs'
+// import path from 'path'
+import swaggerUi from 'swagger-ui-express'
+import swaggerJsdoc from 'swagger-jsdoc'
+// const file = fs.readFileSync(path.resolve('src/twitter-swagger.yaml'), 'utf8')
+// const swaggerDocument = YAML.parse(file)
+
+const options: swaggerJsdoc.Options = {
+  definition: {
+    openapi: '3.0.0',
+    info: {
+      title: 'Twitter API clone Typescript',
+      version: '1.0.0'
+    },
+    components: {
+      securitySchemes: {
+        BearerAuth: {
+          type: 'http',
+          scheme: 'bearer',
+          bearerFormat: 'JWT'
+        }
+      }
+    },
+    security: [
+      {
+        BearerAuth: []
+      }
+    ],
+    persistAuthorization: true
+  },
+  apis: ['./openapi/*.yaml']
+}
+
+const openapiSpecification = swaggerJsdoc(options)
 
 config()
 databaseService.connect().then(() => {
@@ -43,6 +78,7 @@ app.use('/search', searchRouter)
 app.use('/conversations', conversationsRouter)
 app.use('/static', staticRouter)
 app.use('/static/video', express.static(UPLOAD_VIDEO_DIR))
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(openapiSpecification))
 app.use(defaultErrorHandler)
 initSocket(httpServer)
 httpServer.listen(port, () => {
