@@ -106,13 +106,18 @@ class MediasService {
           filePath: newPath,
           contentType: mime.getType(newPath) as string
         })
-        // console.log(s3Result)
         //delete temp file
         await Promise.all([fsPromise.unlink(file.filepath), fsPromise.unlink(newPath)])
         return {
           url: s3Result.Location as string,
           type: MediaType.Image
         }
+        // return {
+        //   url: isProduction
+        //     ? `${process.env.HOST}/static/image/${newFullFileName}`
+        //     : `http://localhost:${process.env.PORT}/static/image/${newFullFileName}`,
+        //   type: MediaType.Image
+        // }
       })
     )
     return result
