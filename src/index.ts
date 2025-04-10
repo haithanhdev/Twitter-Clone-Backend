@@ -1,11 +1,10 @@
 import express from 'express'
-import cors from 'cors'
+import cors, { CorsOptions } from 'cors'
 import usersRouter from './routes/users.routes'
 import databaseService from './services/database.services'
 import { defaultErrorHandler } from './middlewares/error.middlewares'
 import mediasRouter from './routes/medias.routes'
 import { initFolder } from './utils/file'
-import { config } from 'dotenv'
 import { UPLOAD_IMAGE_DIR, UPLOAD_VIDEO_DIR } from './constants/dir'
 import staticRouter from './routes/static.routes'
 import tweetsRouter from './routes/tweets.routes'
@@ -16,11 +15,13 @@ import '~/utils/s3'
 import conversationsRouter from './routes/conversations.routes'
 import initSocket from './utils/socket'
 import likesRouter from '~/routes/likes.routes'
+import helmet from 'helmet'
 import YAML from 'yaml'
 // import fs from 'fs'
 // import path from 'path'
 import swaggerUi from 'swagger-ui-express'
 import swaggerJsdoc from 'swagger-jsdoc'
+import { envConfig, isProduction } from '~/constants/config'
 // const file = fs.readFileSync(path.resolve('src/twitter-swagger.yaml'), 'utf8')
 // const swaggerDocument = YAML.parse(file)
 
@@ -52,7 +53,6 @@ const options: swaggerJsdoc.Options = {
 
 const openapiSpecification = swaggerJsdoc(options)
 
-config()
 databaseService.connect().then(() => {
   databaseService.indexUsers()
   databaseService.indexRefreshTokens()
@@ -61,10 +61,15 @@ databaseService.connect().then(() => {
   databaseService.indexTweets()
 })
 const app = express()
+
 const httpServer = createServer(app)
 
-app.use(cors())
-const port = process.env.PORT || 4000
+app.use(helmet())
+const corsOptions: CorsOptions = {
+  origin: isProduction ? envConfig.clientUrl : '*'
+}
+app.use(cors(corsOptions))
+const port = envConfig.port || 4000
 //Tạo folder uploads
 initFolder()
 

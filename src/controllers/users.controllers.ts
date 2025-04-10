@@ -1,11 +1,10 @@
-import { config } from 'dotenv'
 import { Request, Response } from 'express'
 import { NextFunction, ParamsDictionary } from 'express-serve-static-core'
 import { ObjectId } from 'mongodb'
+import { envConfig } from '~/constants/config'
 import { UserVerifyStatus } from '~/constants/enums'
 import HTTP_STATUS from '~/constants/httpStatus'
 import { USERS_MESSAGES } from '~/constants/messages'
-config()
 import {
   ChangePasswordReqBody,
   FollowReqBody,
@@ -77,7 +76,7 @@ export const oauthController = async (req: Request, res: Response) => {
   console.log('req.query: ', req.query)
   console.log('code: ', code)
   const result = await usersService.oauth(code as string)
-  const urlRedirect = `${process.env.CLIENT_REDIRECT_CALLBACK}?access_token=${result.access_token}&refresh_token=${result.refresh_token}&new_user=${result.newUser}&verify=${result.verify}`
+  const urlRedirect = `${envConfig.clientRedirectCallback}?access_token=${result.access_token}&refresh_token=${result.refresh_token}&new_user=${result.newUser}&verify=${result.verify}`
   res.redirect(urlRedirect)
   return
 }
