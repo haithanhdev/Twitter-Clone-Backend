@@ -1,9 +1,24 @@
 import { config } from 'dotenv'
-import argv from 'minimist'
-const options = argv(process.argv.slice(2))
-export const isProduction = options.env === 'production'
+import fs from 'fs'
+import path from 'path'
+
+const env = process.env.NODE_ENV
+const envFilename = `.env.${env}`
+
+if (!env) {
+  console.log(`Missing NODE_ENV environment variable`)
+  console.log(`NODE_ENV = ${env}`)
+  process.exit(1)
+}
+console.log(`NODE_ENV = ${env}, so app is using ${envFilename}`)
+if (!fs.existsSync(path.resolve(envFilename))) {
+  console.log(`Missing ${envFilename}`)
+  console.log(`App does not use .env file, example if environment is development, app will use .env.development`)
+  process.exit(1)
+}
+export const isProduction = env === 'production'
 config({
-  path: options.env ? `.env.${options.env}` : '.env'
+  path: envFilename
 })
 export const envConfig = {
   port: (process.env.PORT as string) || 4000,
